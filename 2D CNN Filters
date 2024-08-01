@@ -1,4 +1,4 @@
-Filters for Linear 2D rectangular elements in a structured mesh used in all models
+Filters for Linear 2D rectangular elements in a structured mesh used in all 2D models
 
 Advection in x-direction:
 w_x = 1/12 * [-1   0   1,
@@ -21,7 +21,7 @@ wm = [0.028  0.11  0.028,
       0.028  0.11  0.028]
 
 
-Filters for Quadratic 2D rectangular elements in a structured mesh used in all models
+Filters for Quadratic 2D rectangular elements in a structured mesh used in all 2D models
 Advection in x-direction:
 w_x = [-2.78E-003   2.22E-002   0.0  -2.22E-002   2.78E-003,
         1.11E-002  -8.89E-002   0.0   8.89E-002  -1.11E-002,
