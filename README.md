@@ -11,6 +11,11 @@ This repository presents a novel approach to the discretisation and solution of 
 - **It is a scalable method which has been run in serial on CPU and GPU
 - **It is also run in parallel on 2,4, and 8 GPUs in a local machine as well as a GPU cluster
 
+## Domain of the problem
+The domain is the South Kensington area in London
+
+![Boundary Layer](images/South_Kensington)
+
 ## Contact and references
 For more information please get in touch with me via:
 - Email: amin.nadimy19@imperial.ac.uk
