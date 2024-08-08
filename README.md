@@ -1,6 +1,6 @@
 # City-Scale Atmospheric Boundary Layer modelling using NN4PDEs
 
-This repository presents a novel approach to the discretisation and solution of the Navier-Stokes Equations using finite difference (FD), finite volume (FV), and finite element methods (FE). This method reformulates the discretised system of equations as a discrete convolution, analogous to a convolutional layer in a neural network, and solves it using A V-cycle geometric multigrid.
+This repository presents a novel approach to the discretisation and solution of the Navier-Stokes Equations using finite difference (FD), finite volume (FV), and finite element methods (FE). This method reformulates the discretised system of equations as a discrete convolution, analogous to a convolutional layer in a neural network, and solves it using a V-cycle geometric multigrid.
 
 ## Key Features:
 - **Platform-Agnostic Code**: Runs seamlessly on CPUs, GPUs, and AI-optimized processors.
