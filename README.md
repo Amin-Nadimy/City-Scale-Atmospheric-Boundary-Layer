@@ -14,7 +14,7 @@ This repository presents a novel approach to the discretisation and solution of 
 ## Domain of the problem
 The domain is the South Kensington area in London
 
-![Boundary Layer](images/South_Kensington.jpg)
+![Boundary Layer](Images/South_Kensington.jpg)
 
 ## Contact and references
 For more information please get in touch with me via:
