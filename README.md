@@ -8,13 +8,19 @@ This repository presents a novel approach to the discretisation and solution of 
 - **Accelerated Development**: Leverages machine-learning libraries to speed up model development.
 
 ## Applications:
-- **It is a scalable method which has been run in serial on CPU and GPU
-- **It is also run in parallel on 2,4, and 8 GPUs in a local machine as well as a GPU cluster
+- Incompressible Navier-Stokes Equations are modelled using NN4PDEs to simulate the flow of air over an urban area
+- It is a scalable method which has been run in serial on CPU and GPU
+- It has been run in parallel on 2,4, and 8 GPUs in a local machine as well as a GPU cluster
 
-## Domain of the problem
-The domain is the South Kensington area in London
+### Domain of the problem
+- The domain is the South Kensington area in London which covers 5 km by 4 km
+- The resolution in this case is 1 m in x, y and z directions
 
 ![Boundary Layer](Images/South_Kensington.jpg)
+
+
+## Result
+
 
 ## Contact and references
 For more information please get in touch with me via:
