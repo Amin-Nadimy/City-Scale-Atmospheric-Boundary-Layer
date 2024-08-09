@@ -1,5 +1,7 @@
-Filters for Linear 2D rectangular elements in a structured mesh used in all 2D models
+# These are pre-defined CNN filters for solving any PDE. The values are calculated based on a conventional finite element discretisation scheme (FEM)
+# These filters represent the gradient and diffusion operators for linear FEM elements 
 
+# ---------------------------------------------------- Filters for Linear 2D rectangular elements in a structured mesh used in all 2D models
 Advection in x-direction:
 w_x = 1/12 * [-1   0   1,
               -4   0   4,
@@ -21,7 +23,7 @@ wm = [0.028  0.11  0.028,
       0.028  0.11  0.028]
 
 
-Filters for Quadratic 2D rectangular elements in a structured mesh used in all 2D models
+# ----------------------------------------------------  Filters for Quadratic 2D rectangular elements in a structured mesh used in all 2D models
 Advection in x-direction:
 w_x = [-2.78E-003   2.22E-002   0.0  -2.22E-002   2.78E-003,
         1.11E-002  -8.89E-002   0.0   8.89E-002  -1.11E-002,
