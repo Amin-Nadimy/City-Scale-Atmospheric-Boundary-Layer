@@ -16,11 +16,11 @@ This repository presents a novel approach to the discretisation and solution of 
 - The domain is the South Kensington area in London which covers 5 km by 4 km
 - The resolution in this case is 1 m in x, y and z directions
 
-![Boundary Layer](Image_video/South_Kensington.jpg)
+![Boundary Layer](https://github.com/Amin-Nadimy/City-Scale-Atmospheric-Boundary-Layer/blob/main/Documents/South_Kensington.jpg)
 
 
 ## Result
-![Demo](https://github.com/Amin-Nadimy/City-Scale-Atmospheric-Boundary-Layer/blob/main/Image_video/South_Kensington_demo.gif)
+![Demo](https://github.com/Amin-Nadimy/City-Scale-Atmospheric-Boundary-Layer/blob/main/Documents/South_Kensington_demo.gif)
 
 
 
