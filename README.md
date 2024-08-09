@@ -20,9 +20,8 @@ This repository presents a novel approach to the discretisation and solution of 
 
 
 ## Result
+![Demo](https://github.com/Amin-Nadimy/City-Scale-Atmospheric-Boundary-Layer/blob/main/Image_video/output_video.gif)
 
-
-https://github.com/user-attachments/assets/1cc36777-ee9e-4af5-a2c7-64dc47303aaf
 
 
 
