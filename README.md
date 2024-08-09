@@ -16,10 +16,15 @@ This repository presents a novel approach to the discretisation and solution of 
 - The domain is the South Kensington area in London which covers 5 km by 4 km
 - The resolution in this case is 1 m in x, y and z directions
 
-![Boundary Layer](Images/South_Kensington.jpg)
+![Boundary Layer](Image_video/South_Kensington.jpg)
 
 
 ## Result
+
+
+https://github.com/user-attachments/assets/1cc36777-ee9e-4af5-a2c7-64dc47303aaf
+
+
 
 
 ## Contact and references
