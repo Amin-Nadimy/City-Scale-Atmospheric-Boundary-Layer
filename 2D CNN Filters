@@ -1,5 +1,5 @@
 # These are pre-defined CNN filters for solving any PDE. The values are calculated based on a conventional finite element discretisation scheme (FEM)
-# These filters represent the gradient and diffusion operators for linear FEM elements 
+# These filters represent the gradient and diffusion operators for linear and quadratic FEM elements 
 
 # ---------------------------------------------------- Filters for Linear 2D rectangular elements in a structured mesh used in all 2D models
 Advection in x-direction:
