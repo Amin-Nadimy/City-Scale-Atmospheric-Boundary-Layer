@@ -22,6 +22,20 @@ This repository presents a novel approach to the discretisation and solution of 
 ## Result
 ![Demo](https://github.com/Amin-Nadimy/City-Scale-Atmospheric-Boundary-Layer/blob/main/Documents/South_Kensington_demo.gif)
 
+## Installation Guide
+
+1. Download the package from the IRP repository on GitHub
+2. Navigate into the directory which contains `environment.yml` and create the environment. Run the following command in the terminal.
+```bash
+conda env create -f environment.yml
+```
+3. Activate the environment created. 
+
+4. You can install it as an independent `python` package by running the command
+```bash
+pip install .
+```
+
 ## Contact and references
 For more information please get in touch with me via:
 - Email: amin.nadimy19@imperial.ac.uk
