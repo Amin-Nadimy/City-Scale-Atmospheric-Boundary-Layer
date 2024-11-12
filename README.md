@@ -22,18 +22,30 @@ This repository presents a novel approach to the discretisation and solution of 
 ## Result
 ![Demo](https://github.com/Amin-Nadimy/City-Scale-Atmospheric-Boundary-Layer/blob/main/Documents/South_Kensington_demo.gif)
 
-## Installation Guide
+## Installation
 
-1. Download the package from the IRP repository on GitHub
-2. Navigate into the directory which contains `environment.yml` and create the environment. Run the following command in the terminal.
+### Prerequisites
+
+Before proceeding, ensure that you have the following:
+
+- **Python 3.10**: It is recommended to use Python 3.10 for compatibility with the required packages and libraries.
+
+- **Conda (Preferred)**: Although not essential, it is recommended to use [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) for managing your Python environment and dependencies. Conda simplifies package management and helps avoid conflicts.
+
+- **GPU with CUDA support**: A GPU that supports CUDA and has at least 20GB of VRAM. Ensure that your CUDA drivers are correctly installed and configured.
+
+### Environment Setup
+
+To set up the environment, run:
+
 ```bash
 conda env create -f environment.yml
 ```
-3. Activate the environment created. 
 
-4. You can install it as an independent `python` package by running the command
+Alternatively, you can install the required packages using `requirements.txt`:
+
 ```bash
-pip install .
+pip install -r requirements.txt
 ```
 
 ## Contact and references
