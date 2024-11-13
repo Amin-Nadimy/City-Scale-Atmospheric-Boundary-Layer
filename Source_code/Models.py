@@ -90,7 +90,7 @@ class AI4Urban(nn.Module):
         return neig_face
     
         
-    def update_halos(self, sd, dt, nlevel):  # AMIN:: to optimise pass in as local vbls instead of global
+    def update_halos(self, sd, dt, nlevel):
         # --------------------------------------------------------------------------------- front
         neig0 = sd.neig[0]
         if not isinstance(neig0, str):
@@ -618,7 +618,7 @@ class AI4Urban(nn.Module):
         return values_pp
     
     
-    def boundary_condition_k_u(self, sd):   # Amin:: if results are not correct. uncomment /(1+dt*sd.sigma)
+    def boundary_condition_k_u(self, sd):
         sd.k_uu[0,0,1:-1,1:-1,1:-1] = sd.k_u[0,0,:,:,:]
         # -------------------------------------------------------------------------------- front
         if isinstance(sd.neig[0], str):
