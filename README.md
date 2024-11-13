@@ -22,6 +22,21 @@ This repository presents a novel approach to the discretisation and solution of 
 ## Result
 ![Demo](https://github.com/Amin-Nadimy/City-Scale-Atmospheric-Boundary-Layer/blob/main/Documents/South_Kensington_demo.gif)
 
+---
+## Repository Structure
+```plaintext
+. City-Scale-Atmospheric-Boundary-Layer
+├── Documents/
+│           ├── 2D CNN filters                  # The model input - 2D filters
+│           ├── 3D CNN filters                  # The model input - 3D filters
+│           └── South_Kensington_demo.gif       # A demo of the simulation results
+├── Source_code/                                # Parallel codes for running on 2GPUs
+│           ├── Main                            #  Main Python code      
+│           ├── Models                          # The CNN model 
+│           └── NN4PDE_lib.py                   # Input library    
+```
+---
+
 ## Installation
 
 ### Prerequisites
